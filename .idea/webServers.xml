@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0c63d61d-d892-491a-8329-0e5a5a0a154b" name="E8">
+        <fileTransfer rootFolder="/home/ssb/Project/E8-Online-Continual-Learning-via-Collaborative-Learning" accessType="SFTP" host="10.68.44.250" port="10165" sshConfigId="11a79cc2-62af-4cbd-ae8b-479c9decc370" sshConfig="ssb@10.68.44.250:10165 password">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
