@@ -1,4 +1,6 @@
 # Enhancing Feature Learning with Hard Samples in Mutual Learning for Online Class Incremental Learning
+Official implementation of the paper Enhancing Feature Learning with Hard Samples in Mutual Learning for Online Class Incremental Learning.
+
 ## 1. Requirements
 
 The experiments are conducted using the following hardware and software:
