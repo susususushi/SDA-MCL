@@ -1,5 +1,5 @@
 # Enhancing Feature Learning with Hard Samples in Mutual Learning for Online Class Incremental Learning
-Official implementation of the paper Enhancing Feature Learning with Hard Samples in Mutual Learning for Online Class Incremental Learning.
+Official implementation of the paper [Enhancing Feature Learning with Hard Samples in Mutual Learning for Online Class Incremental Learning](https://ieeexplore.ieee.org/abstract/document/11196042) (TIP2025).
 
 ## 1. Requirements
 
@@ -45,11 +45,27 @@ python main.py --data-root-dir ./dataset/imagenet100_data --config ./config/2025
 The preliminary experiment can be  conducted using the following command:
 
 ``````
-python preliminary_first.py --data-root-dir ../dataset/cifar100 --config ./config/CVPR24/cifar100/PRE,c100,m1000.yaml --n-runs 10 --augmentation randaug1 --mem-iters 1
-python preliminary_second.py --data-root-dir ../dataset/cifar100 --config ./config/CVPR24/cifar100/PRE,c100,m1000.yaml --n-runs 10 --augmentation randaug1 --mem-iters 5
+python preliminary_first.py --data-root-dir ../dataset/cifar100 --config ./config/2025/cifar100/PRE,c100,m1000.yaml --n-runs 10 --augmentation randaug1 --mem-iters 1
+python preliminary_second.py --data-root-dir ../dataset/cifar100 --config ./config/2025/cifar100/PRE,c100,m1000.yaml --n-runs 10 --augmentation randaug1 --mem-iters 5
 ``````
 
 The scores will be saved in the  `./scores` directory.
+
+## 5. Citation
+
+If you use this paper/code in your research, please consider citing us:
+
+[Accepted at TIP2025](https://ieeexplore.ieee.org/abstract/document/11196042).
+
+```
+@article{liang2025enhancing,
+  title={Enhancing Feature Learning with Hard Samples in Mutual Learning for Online Class Incremental Learning},
+  author={Liang, Guoqiang and Su, Shibin and Cheng, De and Zhang, Shizhou and Wang, Peng and Zhang, Yanning},
+  journal={IEEE Transactions on Image Processing},
+  year={2025},
+  publisher={IEEE}
+}
+```
 
 ## Acknowledgement
 
